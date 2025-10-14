@@ -2,11 +2,14 @@
 <html lang="es">
 
 <head>
-  <title>DevJobs - Empleos</title>
+  <title>DevJobs - Inicio</title>
   <meta charset="UTF-8" />
   <meta name="description" content="Encuentra las mejores ofertas de trabajo para desarrolladores en DevJobs.">
-
   <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js" async></script>
+  <!-- usar async cuando se necesita descargar el HTML en paralelo al JS, se ejecuta cuando termina de descargar el  js -->
+  <!-- usar defer cuando se cargan scripts que dependen del DOM tambien, se descarga en paralelo
+    y despues de que el Html se haya cargado recien se ejecuta el js -->
 </head>
 
 <body>
@@ -45,19 +48,25 @@
           <path d="M21 21l-6 -6" />
         </svg>
 
-        <input required type="text" placeholder="Buscar empleos por título, habilidad o empresa">
+        <input id="job-seeker" required type="text" placeholder="Buscar empleos por título, habilidad o empresa">
 
       </form>
       <!-- ahora tengo que poner la aprte donde iran los filtros, y debajo los resultados de busqueda  en cards sin imagenes -->
       <div class="filters">
         <select name="tecnologia" id="tecnologia-filter">
           <option value="">Tecnologia</option>
-          <option value="Angular">Angular</option>
-          <option value="React">React</option>
-          <option value="Vue">Vue</option>
-          <option value="Node.js">Node.js</option>
+          <option value="JavaScript">JavaScript</option>
           <option value="Python">Python</option>
-          <option value="Java">Java</option>
+          <option value="React">React</option>
+          <option value="Node.js">Node.js</option>
+          <option value="Django">Django</option>
+          <option value="Python">Python</option>
+          <option value="Swift">Swift</option>
+          <option value="Kotlin">Kotlin</option>
+          <option value="React Native">React Native</option>
+          <option value="MongoDB">MongoDB</option>
+          <option value="SQL">SQL</option>
+          <option value="NoSQL">NoSQL</option>
         </select>
         <select name="ubicacion" id="ubicacion-filter">
           <option value="">Ubicación</option>
@@ -82,8 +91,8 @@
           <option value="senior">Senior</option>
         </select>
       </div>
-      <div class="job-list">
-        <article class="job-card">
+      <div class="job-list" id="job-list">
+        <!-- articulo de ejemplo delmockup de stich <article class="job-card">
           <div class="card-container">
             <h3>Desarrollador Frontend</h3>
             <div class="card-subtile">
@@ -97,55 +106,10 @@
             </p>
           </div>
           <button>Aplicar</button>
-        </article>
-        <article class="job-card">
-          <div class="card-container">
-            <h3>Desarrollador Backend</h3>
-            <div class="card-subtitle">
-              <span class="company-name">Innovatech</span> |
-              <span class="company-address">CDMX</span>
-            </div>
-            <p>Se busca un desarrollador backend con experiencia en Python y Django. El candidato debe tener
-              conocimientos
-              en bases de datos SQL y NoSQL, así como experiencia en la creación de APIs RESTful.
-            </p>
-          </div>
-          <button>Aplicar</button>
-        </article>
-
-        <article class="job-card">
-          <div class="card-container">
-            <h3>Desarrollador Fullstack</h3>
-            <div class="card-subtitle">
-              <span class="company-name">WebWorks</span> |
-              <span class="company-address">Guadalajara</span>
-            </div>
-            <p>Estamos buscando un desarrollador fullstack con experiencia en JavaScript, React, Node.js y bases de
-              datos
-              MongoDB. El candidato ideal debe ser capaz de trabajar en un entorno ágil y tener habilidades para
-              resolver
-              problemas.
-            </p>
-          </div>
-          <button>Aplicar</button>
-        </article>
-        <article class="job-card">
-          <div class="card-container">
-            <h3>Desarrollador Mobile</h3>
-            <div class="card-subtitle">
-              <span class="company-name">AppMakers</span> |
-              <span class="company-address">Buenos Aires</span>
-            </div>
-            <p>Buscamos un desarrollador mobile con experiencia en desarrollo de aplicaciones iOS y Android. El
-              candidato
-              debe tener conocimientos en Swift, Kotlin y React Native.
-            </p>
-          </div>
-          <button>Aplicar</button>
-        </article>
+        </article> -->
       </div>
-      <div class="pagination">
-        <button aria-label="Página anterior" class="button-before" disabled>
+      <div class="pagination" id="pagination-jobs">
+        <!-- <button aria-label="Página anterior" class="button-before" disabled>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="icon icon-tabler icon-tabler-chevron-left">
@@ -163,7 +127,7 @@
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <polyline points="9 6 15 12 9 18"></polyline>
           </svg>
-        </button>
+        </button> -->
       </div>
     </section>
   </main>
