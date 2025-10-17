@@ -23,12 +23,6 @@ let prevIcon = `
 
 
 fetch('./data/jobs.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Error al cargar el archivo JSON');
-        }
-        return response.json();
-    })
     .then(data => {
         jobs = data;
         jobsFiltrados = jobs; // Inicialmente, todos los empleos están en la lista filtrada
@@ -72,9 +66,8 @@ if (jobList) {
 }
 
 function filtrarEmpleos(valor, kindOfFilter) {
-
+    currentPage = 1; // Reiniciar a la primera página en cada filtrado
     let resultados = jobs.filter((job) => {
-        currentPage = 1; // Reiniciar a la primera página en cada filtrado
         if (kindOfFilter === "input-seeker") {
             // Buscar empleos por título, habilidad o empresa
             return (
@@ -102,7 +95,7 @@ function mostrarEmpleos() {
     resultadosContainer.innerHTML = "";
     paginationFilter();
     if (jobsFiltrados.length === 0) {
-        resultadosContainer.innerHTML = "<p class='no-results'>No se encontraron empleo.</p>";
+        resultadosContainer.innerHTML = "<p class='no-results'>No se encontraron empleos.</p>";
         return;
     } else {
         // Mostrar empleos filtrados paginados
@@ -135,7 +128,7 @@ function paginationFilter() {
     // Actualizar la paginación
     const paginationContainer = document.getElementById("pagination-jobs");
     paginationContainer.innerHTML = "";
-    //  Sino hay resultados
+
     if (jobsFiltrados.length != 0) {
         const totalPages = Math.ceil(jobsFiltrados.length / rowsPerPage);// redondea hacia arriba
         // Botón de página anterior
