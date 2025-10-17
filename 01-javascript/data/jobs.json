@@ -1,0 +1,192 @@
+[
+  {
+    "id": "jb1",
+    "titulo": "Desarrollador Frontend",
+    "empresa": "TechSolution Inc.",
+    "ubicacion": "Remoto",
+    "tipoContrato": "Full-time",
+    "experiencia": "Junior",
+    "tecnologia": "JavaScript, React, Node.js",
+    "descripcion": "Buscamos un ingeniero de software con \"experiencia\" en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas habilidades de comunicación."
+  },
+  {
+    "id": "jb2",
+    "titulo": "Desarrollador Backend",
+    "empresa": "Innovatech",
+    "ubicacion": "CDMX",
+    "tipoContrato": "Part-time",
+    "experiencia": "Semi-Senior",
+    "tecnologia": "Python, Django, SQL, NoSQL",
+    "descripcion": "Se busca un desarrollador backend con \"experiencia\" en Python y Django. El candidato debe tener conocimientos en bases de datos SQL y NoSQL, así como \"experiencia\" en la creación de APIs RESTful."
+  },
+  {
+    "id": "jb3",
+    "titulo": "Desarrollador Fullstack",
+    "empresa": "WebWorks",
+    "ubicacion": "Guadalajara",
+    "tipoContrato": "Full-time",
+    "experiencia": "Senior",
+    "tecnologia": "JavaScript, React, Node.js, MongoDB",
+    "descripcion": "Estamos buscando un desarrollador fullstack con \"experiencia\" en JavaScript, React, Node.js y bases de datos MongoDB. El candidato ideal debe ser capaz de trabajar en un entorno ágil y tener habilidades para resolver problemas."
+  },
+  {
+    "id": "jb4",
+    "titulo": "Desarrollador Mobile",
+    "empresa": "AppMakers",
+    "ubicacion": "Buenos Aires",
+    "tipoContrato": "Freelance",
+    "experiencia": "Junior",
+    "tecnologia": "Swift, Kotlin, React Native",
+    "descripcion": "Buscamos un desarrollador mobile con \"experiencia\" en desarrollo de aplicaciones iOS y Android. El candidato debe tener conocimientos en Swift, Kotlin y React Native."
+  },
+  {
+    "id": "jb5",
+    "titulo": "Data Scientist",
+    "empresa": "DataCorp",
+    "ubicacion": "Montevideo",
+    "tipoContrato": "Full-time",
+    "experiencia": "Senior",
+    "tecnologia": "Python, SQL, NoSQL, Machine Learning",
+    "descripcion": "Estamos buscando un Data Scientist con experiencia en análisis de datos, Machine Learning y manejo de grandes volúmenes de información utilizando Python, SQL y NoSQL."
+  },
+  {
+    "id": "jb6",
+    "titulo": "DevOps Engineer",
+    "empresa": "CloudOps",
+    "ubicacion": "Remoto",
+    "tipoContrato": "Full-time",
+    "experiencia": "Mid-level",
+    "tecnologia": "AWS, Docker, Kubernetes, Node.js",
+    "descripcion": "Buscamos un ingeniero DevOps con conocimientos en automatización, integración continua, despliegue en la nube (AWS) y contenedores (Docker, Kubernetes)."
+  },
+  {
+    "id": "jb7",
+    "titulo": "UX/UI Designer",
+    "empresa": "DesignLab",
+    "ubicacion": "Buenos Aires",
+    "tipoContrato": "Freelance",
+    "experiencia": "Junior",
+    "tecnologia": "Figma, Adobe XD, HTML, CSS",
+    "descripcion": "Se necesita un diseñador UX/UI con conocimientos en Figma y Adobe XD para crear experiencias de usuario atractivas y funcionales."
+  },
+  {
+    "id": "jb8",
+    "titulo": "QA Tester",
+    "empresa": "TestSolutions",
+    "ubicacion": "CDMX",
+    "tipoContrato": "Part-time",
+    "experiencia": "Mid-level",
+    "tecnologia": "Selenium, Jest, Cypress, Python",
+    "descripcion": "Buscamos un QA Tester con experiencia en pruebas automatizadas utilizando Selenium, Jest o Cypress, preferentemente con conocimientos de Python."
+  },
+  {
+    "id": "jb9",
+    "titulo": "Backend Developer",
+    "empresa": "FinTechPro",
+    "ubicacion": "Cochabamba",
+    "tipoContrato": "Full-time",
+    "experiencia": "Senior",
+    "tecnologia": "Node.js, SQL, NoSQL, TypeScript",
+    "descripcion": "Se busca desarrollador backend con dominio de Node.js, TypeScript y bases de datos SQL y NoSQL para sistemas financieros escalables."
+  },
+  {
+    "id": "jb10",
+    "titulo": "Frontend Developer",
+    "empresa": "CreativeApps",
+    "ubicacion": "Guadalajara",
+    "tipoContrato": "Internship",
+    "experiencia": "Junior",
+    "tecnologia": "HTML, CSS, JavaScript, React",
+    "descripcion": "Oportunidad para estudiantes o recién egresados interesados en desarrollo frontend con React y tecnologías web modernas."
+  },
+  {
+    "id": "jb11",
+    "titulo": "Mobile Developer",
+    "empresa": "SmartApps",
+    "ubicacion": "Remoto",
+    "tipoContrato": "Full-time",
+    "experiencia": "Mid-level",
+    "tecnologia": "React Native, Swift, Kotlin",
+    "descripcion": "Se requiere desarrollador mobile con experiencia en React Native y conocimientos en Swift y Kotlin para aplicaciones multiplataforma."
+  },
+  {
+    "id": "jb12",
+    "titulo": "Database Administrator",
+    "empresa": "DataSecure",
+    "ubicacion": "CDMX",
+    "tipoContrato": "Full-time",
+    "experiencia": "Senior",
+    "tecnologia": "SQL, NoSQL, PostgreSQL, MongoDB",
+    "descripcion": "Administrador de bases de datos con experiencia en PostgreSQL, MongoDB y buenas prácticas de seguridad y respaldo."
+  },
+  {
+    "id": "jb13",
+    "titulo": "Backend Engineer",
+    "empresa": "Techify",
+    "ubicacion": "Buenos Aires",
+    "tipoContrato": "Part-time",
+    "experiencia": "Mid-level",
+    "tecnologia": "Django, Python, REST API, SQL",
+    "descripcion": "Buscamos un backend engineer con conocimientos sólidos en Django, APIs REST y manejo de bases de datos relacionales."
+  },
+  {
+    "id": "jb14",
+    "titulo": "AI Engineer",
+    "empresa": "NeuroTech",
+    "ubicacion": "Remoto",
+    "tipoContrato": "Full-time",
+    "experiencia": "Senior",
+    "tecnologia": "Python, TensorFlow, PyTorch, SQL",
+    "descripcion": "Estamos contratando ingenieros de IA con experiencia en frameworks de deep learning y análisis de datos con Python."
+  },
+  {
+    "id": "jb15",
+    "titulo": "Software Intern",
+    "empresa": "InnovarSoft",
+    "ubicacion": "Cochabamba",
+    "tipoContrato": "Internship",
+    "experiencia": "Junior",
+    "tecnologia": "JavaScript, HTML, CSS",
+    "descripcion": "Pasantía para estudiantes interesados en aprender desarrollo web con tecnologías front-end básicas."
+  },
+  {
+    "id": "jb16",
+    "titulo": "Project Manager IT",
+    "empresa": "DigitalPro",
+    "ubicacion": "Guadalajara",
+    "tipoContrato": "Full-time",
+    "experiencia": "Junior",
+    "tecnologia": "Scrum, Jira, Agile, Trello",
+    "descripcion": "Buscamos un project manager con experiencia liderando equipos ágiles y conocimiento en herramientas de gestión como Jira o Trello."
+  },
+  {
+    "id": "jb17",
+    "titulo": "System Administrator",
+    "empresa": "SecureNet",
+    "ubicacion": "CDMX",
+    "tipoContrato": "Full-time",
+    "experiencia": "Mid-level",
+    "tecnologia": "Linux, Docker, SQL, Networking",
+    "descripcion": "Administrador de sistemas con experiencia en Linux, Docker y conocimientos en bases de datos SQL y redes."
+  },
+  {
+    "id": "jb18",
+    "titulo": "Fullstack Developer",
+    "empresa": "CloudSoft",
+    "ubicacion": "Guadalajara",
+    "tipoContrato": "Freelance",
+    "experiencia": "Senior",
+    "tecnologia": "React, Node.js, MongoDB, AWS",
+    "descripcion": "Desarrollador fullstack con experiencia en desarrollo cloud y manejo de servicios en AWS."
+  },
+  {
+    "id": "jb19",
+    "titulo": "Python Developer",
+    "empresa": "AIWorks",
+    "ubicacion": "Remoto",
+    "tipoContrato": "Full-time",
+    "experiencia": "Mid-level",
+    "tecnologia": "Python, Django, SQL",
+    "descripcion": "Desarrollador Python con experiencia en Django y manejo de bases de datos SQL para proyectos de inteligencia artificial."
+  }
+]

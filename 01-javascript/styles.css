@@ -373,6 +373,17 @@ article h3 {
         outline-offset: 2px;
       }
     }
+
+    .is-applied {
+      background-color: var(--text-muted);
+      cursor: default;
+
+      &:hover,
+      &:focus {
+        background-color: var(--text-muted);
+        outline: none;
+      }
+    }
   }
 
   article {
@@ -385,6 +396,12 @@ article h3 {
 
   article:first-child {
     border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .no-results {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 2rem 0;
   }
 }
 
@@ -407,7 +424,8 @@ article h3 {
     font-family: inherit;
 
     &:hover,
-    &:focus {
+    &:focus,
+    &.active {
       background-color: var(--primary-light);
       border-color: var(--primary-light);
       outline: 2px solid white;
