@@ -23,6 +23,7 @@ let prevIcon = `
 
 
 fetch('./data/jobs.json')
+    .then(response => response.json())
     .then(data => {
         jobs = data;
         jobsFiltrados = jobs; // Inicialmente, todos los empleos están en la lista filtrada
