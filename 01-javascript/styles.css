@@ -102,7 +102,6 @@ nav a:focus {
 }
 
 /* Botones de acciones en el header */
-header .user-actions a,
 header div a {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -115,7 +114,6 @@ header div a {
   transition: background-color 0.2s;
 }
 
-header .user-actions a:hover,
 header div a:hover {
   background-color: var(--primary-hover);
 }
@@ -327,6 +325,18 @@ article h3 {
     font-family: inherit;
     font-size: 1rem;
     transition: border-color 0.2s;
+    cursor: pointer;
+    transition: all 0.2s;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    padding-right: 2.5rem;
+
+    &:hover,
+    &:focus {
+      background-color: var(--primary-hover);
+    }
   }
 
   option {
@@ -335,11 +345,7 @@ article h3 {
     border: 1px solid var(--border);
   }
 
-  &:focus {
-    border-color: var(--primary-light);
-    outline: none;
-    box-shadow: 0 0 0 2px var(--primary-light);
-  }
+
 }
 
 /* Lista de empleos */
@@ -437,6 +443,7 @@ article h3 {
       opacity: 0.5;
       cursor: default;
     }
+
     &:disabled:hover,
     &:disabled:focus {
       background: var(--background);
@@ -445,7 +452,9 @@ article h3 {
       color: var(--text-primary);
     }
   }
-  .button-before, .button-next {
+
+  .button-before,
+  .button-next {
     padding: 0.3rem;
   }
 }
